@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactform.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="javascript:void(0);" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="brand-title">My Portfolio</div>
+        
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html" class="dropbtn">Projects</a></li>    
+                <li><a href="contactform.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main_container">
+        <div class="container1">
+        
+            <h2>Contact Us</h2>
+            <p class="text0"><b>We're open for any suggestion or just to have a chat</b></p>
+        
+        <div class="container2">
+             
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="418503f9-ea7b-4355-bdcf-31067aab3f62">
+            
+                <div>
+                    <input type="text" placeholder="     Name" id="name" name="name" required>
+                </div>
+                <div>
+                    <input type="email" placeholder="    Gmail" id="email" name="email" required>
+                </div>
+                <div>
+                    <input type="text" placeholder="     Subject" id="subject" name="subject" required>
+                </div>
+                <div>
+                    <textarea placeholder="  Write a message" id="message" name="message" required></textarea>
+                </div>
+                <div class="button">
+                    <button>Submit</button>
+                </div>
+        
+
+        </form>
+        </div>
+
+        <div class="img">
+            <img src="contactpic.webp" height="530px">
+        </div>
+
+
+
+
+
+    <script src="contactform.js</script>
+</body>
+</html>
