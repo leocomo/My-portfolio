@@ -141,7 +141,7 @@ a:hover{
         box-shadow: none;
     }
     .brand-title{
-      margin-left: 40vw;
+      margin-left: 35vw;
     }
     .navbar{
       padding: 8px 15px;
@@ -156,7 +156,6 @@ a:hover{
     align-items: center !important;
   }
   .text{
-    background-color: #fff;
     max-width: 250px;
     margin: 15px;
     margin-bottom: 30px;
@@ -170,17 +169,22 @@ a:hover{
     margin: 10px 0;
   }
   p{
-    text-decoration: none black !important;
+    text-decoration: none !important;
     max-width: 200px;
+    color: #fff;
   }
   .container{
     max-width: 250px;
     background-color: #fff;
     overflow: hidden;
-    border-radius: 2px;
+    border-radius: 7px;
     text-align: center;
     box-shadow: rgb(255, 255, 255) 0px 2px 4px 0px, rgba(255, 255, 255, 0.671) 0px 2px 16px 0px;
-
+    background-color: #4444445e;
+    border: 4px solid #4444445e;
+  }
+  img{
+    opacity: 90%;
   }
   img:hover{
     opacity: 70%;
