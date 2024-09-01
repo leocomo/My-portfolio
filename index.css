@@ -215,22 +215,13 @@ button:active {
   transition: 0.5s;
 }
 a:hover{
-  color: #c9f8fd !important;
+  color: #00bcd4 !important;
+  
 }
-ul li a:before{
-  content: '';
-  width: 0px;
-  height: 5px;
-  background: #00bcd4;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  transition: .5s;
+.home{
+  color: #00bcd4 !important;
 }
-ul li:hover a::before{
-  width: 50%;
-  transform: translatex(60%);
-}
+
 p{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
