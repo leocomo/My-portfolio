@@ -1,5 +1,5 @@
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     color: #fff;
 }
@@ -100,22 +100,13 @@ body{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 a:hover{
-  color: #c9f8fd !important;
+  color: #00bcd4 !important;
+  
 }
-ul li a:before{
-  content: '';
-  width: 0px;
-  height: 5px;
-  background: #00bcd4;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  transition: .5s;
-}
-ul li:hover a::before{
-  width: 50%;
-  transform: translatex(60%);
+.skills{
+  color: #00bcd4 !important;
 }
 p{
   font-family: Georgia, 'Times New Roman', Times, serif;
