@@ -100,8 +100,12 @@ body{
   .dropdown:hover .dropdown-content {
     display: block;
   }
-a:hover{
-    color: #c9f8fd !important;
+  a:hover{
+    color: #00bcd4 !important;
+    
+  }
+  .contactform{
+    color: #00bcd4 !important;
   }
   ul li a:before{
     content: '';
