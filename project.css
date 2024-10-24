@@ -1,9 +1,14 @@
 *{
   margin: 0;
   padding: 0;
+
 }
 body{
   background-color: #1f1f1f;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+
+
 }
 .navbar {
     display: flex;
@@ -106,6 +111,15 @@ body{
   p{
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
+  .main_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+
+  #ulcpk-h2{
+    font-size: 23px;
+  }
   @media (max-width: 768px) {
     .navbar-links ul {
         flex-direction: column;
@@ -141,9 +155,7 @@ body{
     display: flex;
     width: 100dvw;
     height: 90dvh;
-    justify-content: center !important;
-    align-content: center !important;
-    align-items: center !important;
+        align-items: center !important;
   }
   .text{
     max-width: 250px;
@@ -173,6 +185,7 @@ body{
     background-color: #4444445e;
     border: 4px solid #4444445e;
   }
+ 
   img{
     opacity: 90%;
   }
@@ -188,5 +201,23 @@ body{
     *{
       margin: auto;
       padding: auto;
+    }
+    
+  }
+  @media (min-width: 450px){
+    #container{
+      margin-left: 100px;
+    }
+  }
+  @media (max-width: 450px){
+    .main_container{
+      flex-direction: column-reverse;
+      height: auto;
+      justify-content: center;
+      margin-bottom: 100px;
+    }
+    .container{
+      margin-top: 100px;
+
     }
   }
