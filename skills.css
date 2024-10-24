@@ -7,6 +7,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #1f1f1f; 
     text-align: center; 
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -148,10 +149,11 @@ h1{
     max-width: 200px;
     min-height: 280px;
     transition: .5s;
+    cursor: pointer;
 }
 .card:hover{
   box-shadow: rgb(83, 198, 243) 0px 2px 4px 0px, rgba(59, 202, 245, 0.671) 0px 2px 16px 0px;
-  max-width: 210px;
+  transform: scale(1.2);
   
 }
 .text{
