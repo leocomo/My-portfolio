@@ -3,62 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="project.css">
-    <title>Projects</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <nav class="navbar">
-        <a href="javascript:void(0);" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <div class="brand-title">My Portfolio</div>
-        
-        <div class="navbar-links">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a class="project" href="#projects" class="dropbtn">Projects</a></li>    
-                <li><a href="contactform.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <section class="main_container" >
-    <div class="container" id="container">
-        <a href="https://leocomo.github.io/Cakeshop/">
-        <div class="image">
-            <img src="project pic2.jpg" width="250px">
-        </div></a>
-        <div class="text">
-            <h2 class="heading">Cake shop</h2>
-        
-            <p>Our user-friendly online store makes it easy to browse, customize, and order your favorite cakes with just a few clicks.</p></div>
+    <header>
+        <nav class="navbar">
+            <a href="javascript:void(0);" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="brand-title">My Portfolio</div>
             
-        </div>  
+            <div class="navbar-links">
+                <ul>
+                    <li><a class="home" href="#home">Home</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html" class="dropbtn">Projects</a></li>    
+                    <li><a href="contactform.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="main-container">
+    <aside>
+        <div class="container">
+            <div class="image-con">
+        <div class="image">
+            <img src="mypic.png" alt="not founded" width="160px">
+        </div>
+    </div>
+        <div class="name">
+            <h1>Hassan Naseer</h1>
+        </div>
+        <div class="ptag">
+        <p class="fed">Front-End Developer</p>
+        </div><hr>
+        <div class="text">
+            <h4>Email</h4> <p>hassannaseer40@gmail.com</p>
+        </div>
+        <div class="text">
+            <h4>Phone</h4> <p>+92 312 2263732</p>
+        </div>
+        <div class="text">
+           <h4>Location</h4>  <p>Scheme 33, karachi</p>
+        </div>
+        <div class="text">
+            <h4>github</h4> <p>Leocomo</p> 
+        </div>
+    </div>
+    </aside>
+    <main>
+        <div class="container">
+            <div class="text">
+            <h2>Hello, this is</h2>
+            </div>
+            <div class="text"><h1>Hassan Naseer</h1></div>
+            
+            <h1 class="text">
+                And I'm A
+                <a href="" class="typewrite" data-period="2000" data-type='[ "Front-End Developer", "..." ]'>
+                  <span class="wrap"></span>
+                </a>
+            </h1>
+            <div class="text"><p>As a front-end developer, I specialize in transforming creative designs into interactive digital interfaces. My journey in web development began a years ago, and since then, I've honed my skills in HTML, CSS, JavaScript, and various front-end frameworks.
+            </p>
+            </div>
+            <div class="text"><p>I am a passionate and dedicated Front-End Developer with a strong focus on creating intuitive and dynamic user experiences.
+            </p>
+            </div>
+            <div class="text"><p>In this portfolio, you will find a showcase of my projects that reflect my commitment to quality and innovation. Each project highlights my ability to solve complex problems, implement modern design principles, and deliver engaging digital experiences.</p></div>
+            
+            <div class="text">
+            <a href="my resume.pdf">
+            <button>Resume</button>
+            </a>
+            </div>
+        </div>
+        
+    </main>
+    </div>
 
-    <div class="container" >
-    <a href="https://leocomo.github.io/universal-label/index.html">
-    <div class="image">
-        <img src="ulcpk image.jpg" width="250px">   
-    </div></a>
-    <div class="text">
-        <h2 class="heading" id="ulcpk-h2">Business Website</h2>
     
-        <p>This is a label manufacturing business website.It is a professional responsive website.</p>
-    </div>
-
-    </div>
-
-</section>
-
-
-
-
-
-
-
-    <script src="projects.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
